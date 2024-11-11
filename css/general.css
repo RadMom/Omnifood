@@ -68,6 +68,8 @@ html {
     /* Percentage of user's browser font-size setting */
     /* We want 1rem to be 10px that's why we are doing this :) */
     font-size: 62.5%;
+
+    overflow-x: hidden;
 }
 
 body {
@@ -75,6 +77,8 @@ body {
     line-height: 1;
     font-weight: 400;
     color: #555;
+
+    overflow-x: hidden;
 }
 
 /**************************/
