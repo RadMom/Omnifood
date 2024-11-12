@@ -126,6 +126,11 @@ Instead 1 rem = 1 em =  16px */
 
     /* MOBILE NAVIGATION */
 
+    .btn-mobile-nav {
+        display: block;
+        z-index: 9999;
+    }
+
     .main-nav {
         background-color: rgba(255, 255, 255, 0.9);
         position: absolute;
@@ -140,7 +145,7 @@ Instead 1 rem = 1 em =  16px */
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: all 1s ease-in;
+        transition: all 0.5s ease-in;
 
         /* Hide Navigation */
         /* display: none; -- Allows No transition at all !!! */
@@ -178,10 +183,6 @@ Instead 1 rem = 1 em =  16px */
     .main-nav-link:link,
     .main-nav-link:visited {
         font-size: 3rem;
-    }
-
-    .btn-mobile-nav {
-        display: block;
     }
 }
 
